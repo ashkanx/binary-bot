@@ -30,3 +30,20 @@ h1 {
 	float: right;
 	margin: 2px;
 }
+#placeHolderForTrash {
+	width: 96px;
+	height: 124px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0;
+}
+#placeHolderForWorkspace {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0;
+}
+.hidden {
+	opacity: 0.5;
+}

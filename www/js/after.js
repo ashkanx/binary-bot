@@ -9,3 +9,7 @@ finish.getInput('STACK').setCheck('TradeAgain');
 finish.setTooltip('Aka finish block, this block decides what to do when a purchased contract is finished');
 Bot.utils.updateTokenList();
 Bot.utils.addPurchaseOptions();
+$('.toolbox').after('<div id="placeHolderForTrash"></div>');
+$('#placeHolderForTrash').after('<div id="placeHolderForWorkspace"></div>');
+$('#placeHolderForWorkspace').css('width', (document.body.offsetWidth - $('.blocklyToolboxDiv').width())/2 );
+$('#placeHolderForWorkspace').css('height', (document.body.offsetHeight - $('.blocklyToolboxDiv').position().top)/2);
